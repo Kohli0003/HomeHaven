@@ -17,7 +17,7 @@ const PropertyList = () => {
   const getPropertyList = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/users/${user._id}/properties`,
+        `https://homehaven-1.onrender.com/users/${user._id}/properties`,
         {
           method: "GET",
         }
